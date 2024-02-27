@@ -67,7 +67,7 @@ const Search = () => {
               examples, synonyms, and more
             </p>
           </form>
-        {/* <img className="img" width={350} src="images/1.jpg" /> */}
+          {/*<img className="img" width={350} src="images/1.jpg" /> */}
           <p className="imgq">Seems kind of empty here!</p>;
         </div>
       ) : !meaning && Error ? (
@@ -142,7 +142,7 @@ const Search = () => {
                 <ul>
                   {results[0].meanings.map((x, index) => {
                     return x.definitions.map((obj, subIndex) => {
-                      return <li key={subIndex}>{obj.definition}</li>;
+                      return <li key={subIndex}>{obj.definition}</li>
                     });
                   })}
                 </ul>
