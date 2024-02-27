@@ -67,7 +67,7 @@ const Search = () => {
               examples, synonyms, and more
             </p>
           </form>
-          <img className="img" width={350} src="images/1.jpg" />
+        {/* <img className="img" width={350} src="images/1.jpg" /> */}
           <p className="imgq">Seems kind of empty here!</p>;
         </div>
       ) : !meaning && Error ? (
